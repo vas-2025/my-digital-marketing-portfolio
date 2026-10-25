@@ -1,4 +1,5 @@
 # Pages CMS settings for the Martha Karanja portfolio.
+# The data files sit at the top level of the repository.
 # Each entry below is one editable area. Saving creates a change in GitHub.
 # Text fields accept plain text. Some project fields contain small HTML tags such as <b>...</b>. Leave those tags in place.
 media:
@@ -9,7 +10,7 @@ content:
   - name: pages
     label: Page text (headings and paragraphs)
     type: file
-    path: content/pages.json
+    path: pages.json
     format: json
     fields:
       - name: home
@@ -75,7 +76,7 @@ content:
   - name: contact
     label: Contact details
     type: file
-    path: content/contact.json
+    path: contact.json
     format: json
     fields:
       - { name: email, label: "Email", type: string }
@@ -86,7 +87,7 @@ content:
   - name: projects
     label: Projects
     type: file
-    path: content/projects.json
+    path: projects.json
     format: json
     list: true
     fields:
@@ -136,7 +137,7 @@ content:
   - name: services
     label: Services (How I can help page)
     type: file
-    path: content/services.json
+    path: services.json
     format: json
     list: true
     fields:
@@ -156,7 +157,7 @@ content:
   - name: problems
     label: Common problems (Home page)
     type: file
-    path: content/problems.json
+    path: problems.json
     format: json
     list: true
     fields:
@@ -168,7 +169,7 @@ content:
   - name: tools
     label: Tools and Platforms (groups)
     type: file
-    path: content/tools.json
+    path: tools.json
     format: json
     list: true
     fields:
