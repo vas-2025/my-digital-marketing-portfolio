@@ -1,0 +1,351 @@
+{
+  "sem-campaign": {
+    "blocks": [
+      {
+        "t": "gallery",
+        "imgs": [
+          [
+            "sem_text",
+            "Text ad preview with the Ad strength panel",
+            "Google Ads setup evidence: Google rated the text ad’s strength “Average” during setup (a setup rating, not performance)."
+          ],
+          [
+            "sem_keywords",
+            "The five keywords entered in Google Ads",
+            "The five keywords: fractional COO, fractional COO services, fractional COO for small business, business operations consultant, business systems consultant."
+          ]
+        ]
+      },
+      {
+        "t": "table",
+        "src": "One message across three formats",
+        "head": [
+          "Format",
+          "Message",
+          "Call to action"
+        ],
+        "rows": [
+          [
+            "Text ad",
+            "Operations Consultant - Systems & Automation. Work with a Fractional COO to improve your systems, processes & daily business operations.",
+            "Sitelinks: Systems & Automation, Business Operations. Call number."
+          ],
+          [
+            "Banner ad",
+            "Fractional COO Consultant. Build Better Business Systems.",
+            "Arrow button to the website"
+          ],
+          [
+            "Video ad, YouTube Shorts",
+            "Fractional COO & Automation. Our Services: Fractional COO Support, Operations Improvement, Systems & SOPs, Workflow Automation, Training & Support.",
+            "Book now"
+          ]
+        ]
+      },
+      {
+        "t": "gallery",
+        "imgs": [
+          [
+            "sem_banner",
+            "Banner ad previews on mobile",
+            "Banner ad previews on mobile, with the headline Fractional COO Consultant."
+          ],
+          [
+            "sem_video",
+            "Video ad in the Google Ads builder",
+            "The video ad in the builder, with the Book now call to action and the final URL."
+          ]
+        ]
+      },
+      {
+        "t": "gallery",
+        "cls": "narrow",
+        "imgs": [
+          [
+            "sem_short",
+            "The video ad shown as a YouTube Short",
+            "The video ad as a YouTube Short."
+          ]
+        ]
+      }
+    ]
+  },
+  "seo-strategy": {
+    "blocks": [
+      {
+        "t": "table",
+        "src": "Ahrefs Keyword Generator",
+        "title": "Keyword research: comparing search demand and difficulty",
+        "intro": "The research compared seven keywords to identify a relevant topic with a practical opportunity to target.",
+        "head": [
+          "Keyword",
+          "Difficulty",
+          "Search volume"
+        ],
+        "hit": 4,
+        "rows": [
+          [
+            "agentic AI",
+            "Hard",
+            "> 100K"
+          ],
+          [
+            "what is agentic AI",
+            "Easy",
+            "> 10,000"
+          ],
+          [
+            "agentic AI definition",
+            "Hard",
+            "> 10,000"
+          ],
+          [
+            "agentic AI meaning",
+            "Hard",
+            "> 1,000"
+          ],
+          [
+            "AI agents for business",
+            "Easy",
+            "> 1,000"
+          ],
+          [
+            "best AI agents for business",
+            "Medium",
+            "> 100"
+          ],
+          [
+            "AI agents for business operations",
+            "N/A",
+            "> 100"
+          ]
+        ],
+        "after": "<h3 style=\"margin-top:14px\">The keyword decision</h3><p class=\"prose\">I selected “AI agents for business” as the primary keyword because the research showed a relevant business-focused topic with an Easy difficulty rating and more than 1,000 searches. “Agentic AI” had a much higher reported search volume but a Hard difficulty rating, so I retained it as a related keyword rather than the main target.</p>"
+      },
+      {
+        "t": "cols3",
+        "src": "The plan",
+        "cols": [
+          [
+            "On-page SEO",
+            [
+              "Primary keyword in the SEO title and H1",
+              "Related keywords used naturally",
+              "H2 and H3 headings",
+              "Short keyword URL",
+              "Internal links to services and related posts",
+              "Alt text and compressed images",
+              "Mobile check"
+            ],
+            "I set out how the primary and related keywords are used in the page title, headings, URL, article content and internal links. The plan also covered image descriptions and mobile readability."
+          ],
+          [
+            "Off-page SEO",
+            [
+              "Aim for 2 to 3 relevant backlinks",
+              "Kenyan business or technology websites",
+              "Business directories and professional platforms",
+              "Guest articles on relevant sites",
+              "Relevance over volume"
+            ],
+            "I identified relevant opportunities for building the website's credibility through links from suitable Kenyan business, technology and professional websites."
+          ],
+          [
+            "Technical SEO",
+            [
+              "Site speed",
+              "Mobile friendliness",
+              "Image sizes",
+              "robots.txt and sitemap",
+              "HTTPS",
+              "URL structure",
+              "Checked with Google PageSpeed Insights"
+            ],
+            "I included checks for site speed, mobile usability, image sizes, HTTPS, URL structure, the sitemap and robots.txt."
+          ]
+        ]
+      }
+    ]
+  },
+  "seo-blog": {
+    "blocks": [
+      {
+        "t": "sheet",
+        "src": "The search fields set for the article",
+        "html": "<dl class=\"kv\"><dt>SEO title</dt><dd>What Is Agentic AI for Business, and How Does It Work?</dd><dt>Primary keyword</dt><dd>AI agents for business</dd><dt>Related keywords</dt><dd>agentic AI, what is agentic AI, agentic AI definition, AI agents for business operations, business process automation</dd><dt>URL</dt><dd>/ai-agents-for-business/</dd><dt>Meta description</dt><dd>Learn how AI agents for business can automate tasks, support operations, and improve workflows while reducing the need for manual work.</dd></dl>"
+      },
+      {
+        "t": "sheet",
+        "src": "Search result preview for the article",
+        "html": "<div class=\"serp\"><span class=\"u\">…/ai-agents-for-business/</span><span class=\"t\">What Is Agentic AI for Business, and How Does It Work?</span><span class=\"d\">Learn how AI agents for business can automate tasks, support operations, and improve workflows while reducing the need for manual work.</span></div><p class=\"note\">Example mock-up only, not a real Google search result. It is built from the article's SEO title, URL and meta description.</p>"
+      },
+      {
+        "t": "cols3",
+        "src": "Structure and supporting fields",
+        "cols": [
+          [
+            "Headings",
+            [
+              "H1: What Is Agentic AI and What Does It Mean for Your Business?",
+              "What Is Agentic AI?",
+              "How Is Agentic AI Different From ChatGPT?",
+              "How Can You Use AI Agents in Your Business?",
+              "What Does Your Business Need Before Using Agentic AI?",
+              "Is Agentic AI Right for Your Business?"
+            ]
+          ],
+          [
+            "Images",
+            [
+              "ai-agents-for-business.webp. Alt text: AI agents for business operations",
+              "business-process-automation.webp. Alt text: Business process automation using AI"
+            ]
+          ],
+          [
+            "Internal links",
+            [
+              "Business operations consultant, to the services page",
+              "Business process automation, to the case studies page"
+            ]
+          ]
+        ]
+      },
+      {
+        "t": "sheet",
+        "src": "Keyword in context",
+        "html": "<div class=\"read\"><blockquote>An AI agent can receive a trigger, decide what needs to happen next, take an action, check the result, and continue with the next step. Instead of simply giving you an answer, it can help carry out a process. This is one of the reasons AI agents for business are getting so much attention.</blockquote></div>"
+      }
+    ]
+  },
+  "blog-post": {
+    "blocks": [
+      {
+        "t": "sheet",
+        "src": "Article excerpt · the opening",
+        "html": "<div class=\"read\"><h3>Step-by-Step: How to Set Up a CRM for Your Small Business Using HubSpot Free</h3><p>Most of you manage your client relationships in one of the three ways: a WhatsApp thread, a personal Gmail inbox, or a shared spreadsheet that nobody updates consistently.</p><p>All three work up to a point. That point is usually around the time you have more than fifteen active clients or more than three people involved in client communication. After that, things start going haywire: you are unable to do follow-ups, client history and details are all in your phone, and deals are going cold because no one is able to track the last conversation.</p></div>"
+      },
+      {
+        "t": "sheets",
+        "items": [
+          {
+            "src": "Article excerpt · Step 5, Build your pipeline",
+            "html": "<div class=\"read\"><p>A pipeline is the visual representation of where each client or deal sits in your sales or service process.</p><blockquote>For a service business, a simple pipeline might be: Enquiry Received → Discovery Call Booked → Proposal Sent → Proposal Accepted → Project Active → Completed.</blockquote><p>Six stages that reflect what actually happens, not what a generic CRM template assumes.</p></div>"
+          },
+          {
+            "src": "Article excerpt · Step 6, Set up task reminders",
+            "html": "<div class=\"read\"><p>The single most valuable habit in a CRM is setting a follow-up task immediately after every client interaction. [...]</p><blockquote>This replaces the mental load of trying to remember who you owe a response to. The CRM holds that for you.</blockquote></div>"
+          }
+        ]
+      },
+      {
+        "t": "gallery",
+        "cls": "three",
+        "imgs": [
+          [
+            "hs_account",
+            "Step 1: account and company details",
+            "Step 1. Account and company details, with East Africa Time and KES or USD."
+          ],
+          [
+            "hs_gmail",
+            "Step 2: connect Gmail",
+            "Step 2. Connect Gmail so every email is logged against the contact."
+          ],
+          [
+            "hs_props",
+            "Step 3: contact properties",
+            "Step 3. Contact properties for a service business in Kenya."
+          ],
+          [
+            "hs_import",
+            "Step 4: import contacts",
+            "Step 4. Import a CSV and check the field mapping."
+          ],
+          [
+            "hs_pipeline",
+            "Step 5: build your pipeline",
+            "Step 5. A six stage pipeline from Enquiry Received to Completed."
+          ],
+          [
+            "hs_tasks",
+            "Step 6: set up task reminders",
+            "Step 6. A follow up task after every client interaction."
+          ]
+        ]
+      }
+    ]
+  },
+  "email-campaign": {
+    "blocks": [
+      {
+        "t": "emails",
+        "items": [
+          {
+            "no": "Email 1 – Introduce the problem",
+            "subj": "8:42 AM. A New Lead Just Came In.",
+            "prev": "You are in a meeting. Your next client is already in your system.",
+            "body": "It's 8:42 in the morning. You are in a meeting or working on something that needs your attention. Meanwhile, someone has just filled out the contact form on your website. You haven't seen it yet. But their details are already in your CRM.",
+            "cta": "LET'S LOOK AT YOUR PROCESS",
+            "href": "https://us3.campaign-archive.com/?u=885f9c84bebbf9462677f82ef&id=5774ed4b29"
+          },
+          {
+            "no": "Email 2 – Explain the offer",
+            "subj": "I'll Fix One Process With You",
+            "prev": "Bring me one process. Let's see what can be improved, connected, or automated.",
+            "body": "SYSTEMS & AUTOMATION REVIEW. 60 minutes. One process. A clear plan. Bring me one process that is taking more time than it should.",
+            "cta": "BOOK YOUR 60-MINUTE REVIEW",
+            "href": "https://us3.campaign-archive.com/?u=885f9c84bebbf9462677f82ef&id=83c9d2c621"
+          },
+          {
+            "no": "Email 3 – Encourage the next step",
+            "subj": "Show Me the Process You Keep Avoiding.",
+            "prev": "You don't need to fix it before you bring it to me.",
+            "body": "You don't need to clean it up first. You don't need to document it. You don't need to work out which software you need. Just show me how you are doing it now.",
+            "cta": "BOOK YOUR 60 MIN REVIEW",
+            "href": "https://us3.campaign-archive.com/?u=885f9c84bebbf9462677f82ef&id=c86f488bf3"
+          }
+        ]
+      },
+      {
+        "t": "gallery",
+        "cls": "three",
+        "imgs": [
+          [
+            "email_lead",
+            "Email 1 graphic: 8:42 AM new lead received",
+            "Email 1 header graphic."
+          ],
+          [
+            "email_one",
+            "Email 2 graphic: one process, let's fix it",
+            "Email 2 header graphic."
+          ],
+          [
+            "email_hero",
+            "Email 3 graphic: show me the process you keep avoiding",
+            "Email 3 header graphic."
+          ]
+        ]
+      },
+      {
+        "t": "gallery",
+        "cls": "one",
+        "imgs": [
+          [
+            "email_flow",
+            "Diagram: new form submission, contact created, email sent, follow up task created",
+            "Email 1 diagram: new form submission, contact created, email sent, follow up task created."
+          ]
+        ]
+      },
+      {
+        "t": "sheet",
+        "src": "Email 2 · what the review covers",
+        "html": "<p class=\"say\">How you are doing it now. Where the process slows down. What can be simplified, connected and automated. And most importantly, what should happen next.</p>"
+      }
+    ]
+  },
+  "website-design-concept": {
+    "blocks": []
+  }
+}

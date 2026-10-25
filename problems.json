@@ -1,0 +1,26 @@
+[
+  {
+    "heading": "Customers are not finding your website",
+    "text": "I research the terms people actually search for and shape your pages around them.",
+    "project": "seo-strategy",
+    "linkLabel": "See the SEO Strategy"
+  },
+  {
+    "heading": "You want to reach people who are searching now",
+    "text": "I plan a focused paid search campaign with ads written for each format.",
+    "project": "sem-campaign",
+    "linkLabel": "See the SEM Campaign"
+  },
+  {
+    "heading": "You publish content and are not sure it works",
+    "text": "I write articles around what your readers search for and set up the search fields to match.",
+    "project": "seo-blog",
+    "linkLabel": "See the SEO Blog"
+  },
+  {
+    "heading": "Enquiries come in and then go quiet",
+    "text": "I build a short email sequence that gives each lead one clear next step.",
+    "project": "email-campaign",
+    "linkLabel": "See the Email Campaign"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "home": {
+    "heroTitle": "SEO, content and digital marketing that help customers find your business",
+    "heroIntro": "I support businesses with SEO, paid search planning, website and blog content, and email marketing. My approach combines practical business understanding with clear messaging, thoughtful planning and work that can be reviewed and measured.",
+    "problemsHeading": "Common problems I work on",
+    "projectsHeading": "Projects",
+    "projectsIntro": "Selected projects across search, content and email marketing. Open any of them to see the work in detail.",
+    "ctaHeading": "Tell me about your business and what you want to improve"
+  },
+  "caseStudy": {
+    "workHeading": "The work"
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "A selection of digital marketing, content and website projects, showing the research, planning and creative work behind each deliverable."
+  },
+  "help": {
+    "title": "Help getting found, and staying in touch",
+    "intro": "If one of these sounds like your business, here is what I would do and what you would receive. Each service has a project that shows the work.",
+    "websiteDesignHeading": "Business website design",
+    "websiteDesignText": "I can help plan and create business websites with clear page structure, useful content, consistent visual design and straightforward enquiry pathways. The project can include homepage and internal page layouts, service or product content, mobile-friendly design and basic on-page SEO.",
+    "processHeading": "How a project would run",
+    "processNote": "Scope and deliverables are agreed with each client before work begins."
+  },
+  "tools": {
+    "heading": "Tools and Platforms",
+    "intro": "I work with a range of tools for marketing, content creation, business operations and productivity. The projects in this portfolio show selected examples of how I apply these tools in practice."
+  },
+  "about": {
+    "title": "Digital marketing with a practical understanding of business",
+    "paragraph1": "I’m Martha Karanja, a digital marketer based in Nairobi, Kenya. I work across SEO, paid search planning, content writing and email marketing, helping businesses communicate their offers clearly and reach the right audiences.",
+    "paragraph2": "My work combines research, planning and content creation. The projects in this portfolio show how I approach keyword research, campaign preparation, website content and email communication.",
+    "paragraph3": "I also founded Virtual Assistant Solutions, a consultancy providing fractional COO and operations support to founders and business owners in East Africa and internationally.",
+    "backgroundHeading": "My background",
+    "approachHeading": "How I approach marketing",
+    "approachText": "I begin by understanding the business, its customers and the purpose of the work. That context helps me research relevant search terms, write useful content and prepare marketing materials that communicate the offer clearly. My background in operations also gives me an appreciation of the systems, processes and customer interactions that support a business.",
+    "howIWorkHeading": "How I work",
+    "step1": "I clarify the business objective, the intended audience and what the work needs to achieve.",
+    "step2": "I use the brief to guide the research, messaging, content structure and deliverables.",
+    "step3": "I develop the agreed work, check it for clarity and consistency, and present the finished deliverables for review.",
+    "ctaHeading": "Let’s discuss your project"
+  },
+  "contact": {
+    "title": "Let’s talk about your project",
+    "intro": "Tell me a little about your business and the work you need help with. I can help you identify the right next step for SEO, paid search, content, email marketing or website design."
+  }
+}

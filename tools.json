@@ -1,0 +1,225 @@
+[
+  {
+    "g": "Productivity, Data and Communication",
+    "items": [
+      {
+        "name": "Microsoft 365",
+        "use": "Word, Excel, PowerPoint and Outlook",
+        "ids": []
+      },
+      {
+        "name": "Google Workspace",
+        "use": "Docs, Sheets and Drive",
+        "ids": []
+      },
+      {
+        "name": "Slack",
+        "ids": []
+      },
+      {
+        "name": "Zoom",
+        "ids": []
+      },
+      {
+        "name": "WhatsApp Business",
+        "ids": []
+      }
+    ]
+  },
+  {
+    "g": "Time Tracking",
+    "items": [
+      {
+        "name": "Toggl",
+        "ids": []
+      }
+    ]
+  },
+  {
+    "g": "Project Management and Knowledge Management",
+    "items": [
+      {
+        "name": "ClickUp",
+        "ids": []
+      },
+      {
+        "name": "Trello",
+        "ids": []
+      },
+      {
+        "name": "Asana",
+        "ids": []
+      },
+      {
+        "name": "Notion",
+        "ids": []
+      }
+    ]
+  },
+  {
+    "g": "CRM and Business Operations",
+    "items": [
+      {
+        "name": "HubSpot CRM",
+        "ids": [
+          "blog-post"
+        ]
+      },
+      {
+        "name": "Zoho CRM",
+        "ids": []
+      },
+      {
+        "name": "Zoho Books",
+        "ids": []
+      },
+      {
+        "name": "QuickBooks Online (QBO)",
+        "ids": []
+      }
+    ]
+  },
+  {
+    "g": "Marketing, Content and Analytics",
+    "items": [
+      {
+        "name": "Canva",
+        "ids": []
+      },
+      {
+        "name": "Gamma",
+        "ids": []
+      },
+      {
+        "name": "Metricool",
+        "ids": []
+      },
+      {
+        "name": "Buffer",
+        "ids": []
+      },
+      {
+        "name": "Mailchimp",
+        "ids": [
+          "email-campaign"
+        ]
+      },
+      {
+        "name": "Semrush",
+        "ids": []
+      },
+      {
+        "name": "Ahrefs Keyword Generator",
+        "ids": [
+          "seo-strategy"
+        ]
+      },
+      {
+        "name": "Google PageSpeed Insights",
+        "ids": [
+          "seo-strategy"
+        ]
+      },
+      {
+        "name": "Google Ads",
+        "ids": [
+          "sem-campaign"
+        ]
+      }
+    ]
+  },
+  {
+    "g": "AI, Automation and Chatbots",
+    "items": [
+      {
+        "name": "OpenAI ChatGPT",
+        "use": "Including GPT-4o",
+        "ids": []
+      },
+      {
+        "name": "Google Gemini",
+        "ids": []
+      },
+      {
+        "name": "n8n",
+        "ids": []
+      },
+      {
+        "name": "Zapier",
+        "ids": []
+      },
+      {
+        "name": "Make",
+        "ids": []
+      },
+      {
+        "name": "ManyChat",
+        "ids": []
+      }
+    ]
+  },
+  {
+    "g": "E-commerce and Content Management Systems",
+    "items": [
+      {
+        "name": "WordPress",
+        "ids": []
+      },
+      {
+        "name": "WooCommerce",
+        "ids": []
+      },
+      {
+        "name": "Boxcommerce",
+        "ids": []
+      }
+    ]
+  },
+  {
+    "g": "Scheduling Tools",
+    "items": [
+      {
+        "name": "Google Calendar",
+        "ids": []
+      },
+      {
+        "name": "Reclaim",
+        "ids": []
+      },
+      {
+        "name": "Calendly",
+        "ids": []
+      }
+    ]
+  },
+  {
+    "g": "Social Media Platforms",
+    "items": [
+      {
+        "name": "Facebook",
+        "ids": []
+      },
+      {
+        "name": "Instagram",
+        "ids": []
+      },
+      {
+        "name": "LinkedIn",
+        "ids": []
+      },
+      {
+        "name": "TikTok",
+        "ids": []
+      }
+    ]
+  },
+  {
+    "g": "IT, Security and Password Management",
+    "items": [
+      {
+        "name": "Bitwarden",
+        "ids": []
+      }
+    ]
+  }
+]

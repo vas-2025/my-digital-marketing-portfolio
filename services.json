@@ -1,0 +1,58 @@
+[
+  {
+    "t": "SEO and content optimisation",
+    "p": "Your website has useful pages, but the right people are not finding them, and it is unclear which search terms deserve the effort.",
+    "a": "I research search terms by difficulty and volume, choose a main keyword with supporting ones, then apply them to titles, descriptions, URLs, headings and internal links. I also flag technical checks such as page speed.",
+    "r": "A keyword research table, search intent analysis, recommended on-page changes and a prioritised action plan.",
+    "exn": [
+      {
+        "project": "seo-strategy",
+        "text": "SEO Strategy – keyword research and the recommendations that follow from it."
+      }
+    ],
+    "c": "Discuss an SEO Project"
+  },
+  {
+    "t": "SEM and paid search planning",
+    "p": "Your business needs to reach people searching for relevant services, but the ads must communicate a clear offer and direct potential customers to the right page.",
+    "a": "I research relevant search terms, define the campaign objective, write ad copy and prepare creative for the selected formats. I review the ads before launch to check the messaging, presentation and destination.",
+    "r": "A focused keyword list, campaign messaging, ad copy, creative for the agreed formats, preview checks and practical recommendations for the next steps.",
+    "exn": [
+      {
+        "project": "sem-campaign",
+        "text": "SEM Campaign – a paid search campaign prepared across text, banner and video formats."
+      }
+    ],
+    "c": "Discuss a Paid Search Campaign"
+  },
+  {
+    "t": "Blog content and content strategy",
+    "p": "You publish posts, but they do not match what your readers search for or help them finish what they came to do.",
+    "a": "I choose the topic from keyword research, decide who the article is for and write in plain language. I structure it with clear headings, images and links, and set the title, meta description and URL.",
+    "r": "A finished article ready to publish, with its search fields and supporting images.",
+    "exn": [
+      {
+        "project": "seo-blog",
+        "text": "SEO Blog – an article built around one target keyword."
+      },
+      {
+        "project": "blog-post",
+        "text": "Blog Post – a step-by-step tutorial for small businesses."
+      }
+    ],
+    "c": "Discuss Content for Your Business"
+  },
+  {
+    "t": "Email marketing campaigns",
+    "p": "Enquiries arrive, but leads hear from you once or irregularly and have no clear next step.",
+    "a": "I build a short sequence around one offer. I write the subject lines and preview text, give each email a single call to action and design the emails and the flow between them.",
+    "r": "A sequence of designed emails with subject lines, preview text, copy and calls to action, plus a diagram of how they connect.",
+    "exn": [
+      {
+        "project": "email-campaign",
+        "text": "Email Campaign – a three-email sequence built around one offer."
+      }
+    ],
+    "c": "Discuss Email Marketing"
+  }
+]

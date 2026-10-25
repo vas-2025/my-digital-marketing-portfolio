@@ -1,0 +1,352 @@
+[
+  {
+    "id": "sem-campaign",
+    "cta": [
+      "Discuss a Paid Search Campaign"
+    ],
+    "service": "Paid search",
+    "featured": true,
+    "order": 1,
+    "role": "Keyword research, ad copywriting and campaign creative.",
+    "title": "SEM Campaign",
+    "cat": "Paid search",
+    "type": "Campaign build",
+    "headline": "One service, three ad formats",
+    "sub": "I created a paid search campaign for a Fractional COO and business systems service. The work included keyword selection, ad copy and creative for search, display and video placements, with each format directing potential customers to the services page.",
+    "card": "A paid search campaign for Virtual Assistant Solutions, built around five search keywords and three ad formats: a text ad, a banner ad and a YouTube Shorts video ad. The campaign materials were created and previewed in Google Ads.",
+    "summary": "A paid search campaign for Virtual Assistant Solutions, built around five search keywords and three ad formats: a text ad, a banner ad and a YouTube Shorts video ad. The campaign materials were created and previewed in Google Ads.",
+    "skills": [
+      "Keyword research",
+      "Ad copywriting",
+      "Multi-format campaign planning"
+    ],
+    "skillsLine": "Keyword research · Ad copywriting · Multi-format campaign planning",
+    "cover": "sem_text",
+    "facts": [
+      {
+        "label": "Business",
+        "value": "Virtual Assistant Solutions."
+      },
+      {
+        "label": "Audience",
+        "value": "Business owners and founders looking for support with business operations, systems and automation."
+      },
+      {
+        "label": "Tools",
+        "value": "Google Ads and YouTube Shorts."
+      }
+    ],
+    "workIntro": "The campaign brought one service message across three advertising formats.",
+    "challenge": "The campaign needed to explain a specialist business service clearly and give potential customers a consistent reason to visit the website, even though each advertising format offered a different amount of space.",
+    "approach": [
+      "<b style=\"display:block\">Keyword selection</b>I selected five search terms related to Fractional COO services, business operations and business systems to focus the campaign on relevant searches.",
+      "<b style=\"display:block\">Ad copy and creative</b>I created a text ad, a banner ad and a YouTube Shorts video ad. Each used a variation of the same core message about improving business systems and operations.",
+      "<b style=\"display:block\">Calls to action</b>I included website links and calls to action to guide interested business owners towards the services page.",
+      "<b style=\"display:block\">Preview and review</b>I checked the ad previews and reviewed Google's ad strength feedback to identify how the text ad was assessed during setup."
+    ],
+    "deliverablesList": [
+      "Five-keyword search list.",
+      "Text ad with headline, description and website links.",
+      "Banner ad with headline and creative.",
+      "YouTube Shorts video ad featuring the service offering.",
+      "Desktop and mobile ad previews."
+    ],
+    "links": [
+      {
+        "label": "Watch the video ad",
+        "href": "https://youtube.com/shorts/J7Q9O_Utup8"
+      }
+    ]
+  },
+  {
+    "id": "seo-strategy",
+    "cta": [
+      "Discuss an SEO Project"
+    ],
+    "service": "SEO",
+    "featured": true,
+    "order": 2,
+    "role": "Keyword research and SEO strategy.",
+    "title": "SEO Strategy",
+    "cat": "Search strategy",
+    "type": "Keyword research",
+    "headline": "Choosing the right keyword for the audience",
+    "sub": "I researched keywords related to AI agents for business and compared their search demand and ranking difficulty. The findings helped identify a primary keyword for the article and establish a plan for its content, on-page SEO and technical foundations.",
+    "card": "An SEO strategy based on keyword research for a business-focused article about AI agents. I compared search demand and keyword difficulty, selected a primary keyword and mapped out the content and website improvements needed to support it.",
+    "summary": "An SEO strategy based on keyword research for a business-focused article about AI agents. I compared search demand and keyword difficulty, selected a primary keyword and mapped out the content and website improvements needed to support it.",
+    "skills": [
+      "Keyword research",
+      "Search intent",
+      "SEO planning"
+    ],
+    "skillsLine": "Keyword research · Search intent · SEO planning",
+    "cover": "kw",
+    "facts": [
+      {
+        "label": "Business",
+        "value": "Virtual Assistant Solutions."
+      },
+      {
+        "label": "Audience",
+        "value": "Business owners and founders exploring practical ways to use AI and automation in their operations."
+      },
+      {
+        "label": "Tools",
+        "value": "Ahrefs Keyword Generator and Google PageSpeed Insights."
+      }
+    ],
+    "challenge": "The research showed that some broad AI-related keywords had high search demand but were harder to target. The strategy needed to balance relevance, search intent and ranking difficulty rather than choosing a keyword on volume alone.",
+    "approach": [
+      "<b style=\"display:block\">Audience research</b>I defined the intended reader as a business owner looking for practical ways to improve operations through AI and automation.",
+      "<b style=\"display:block\">Keyword research</b>I compared keyword difficulty and search volume to understand which terms were relevant to the topic and which offered a more practical starting point.",
+      "<b style=\"display:block\">Keyword selection</b>I selected “AI agents for business” as the primary keyword and retained broader AI terminology as supporting keywords.",
+      "<b style=\"display:block\">Search intent</b>I distinguished between readers seeking an explanation of AI agents and readers actively looking for a service provider.",
+      "<b style=\"display:block\">Content and SEO plan</b>I mapped out the article topic and the on-page, off-page and technical improvements that support it."
+    ],
+    "deliverablesList": [
+      "Keyword research and comparison table.",
+      "Primary keyword and related keyword selection.",
+      "Search-intent assessment.",
+      "Content direction for the SEO article.",
+      "On-page SEO checklist.",
+      "Off-page SEO recommendations.",
+      "Technical SEO checklist."
+    ],
+    "produced": "A keyword-led SEO plan that identifies the primary topic, explains why it was selected and gives the supporting article a clear content and optimisation direction.",
+    "links": []
+  },
+  {
+    "id": "seo-blog",
+    "cta": [
+      "Discuss Content for Your Business"
+    ],
+    "service": "Content",
+    "featured": true,
+    "order": 3,
+    "role": "Content writing and on-page SEO.",
+    "title": "SEO Blog",
+    "cat": "SEO content",
+    "type": "Article writing",
+    "headline": "An article built around a clear search topic",
+    "sub": "I wrote an article explaining what AI agents are, how they differ from conversational AI tools and how businesses can use them. I also prepared the SEO fields and supporting page structure to align the article with the keyword strategy.",
+    "card": "A roughly 700-word article explaining AI agents in business, supported by an SEO title, meta description, target keywords, structured headings, image descriptions and internal links.",
+    "summary": "A roughly 700-word article explaining AI agents in business, supported by an SEO title, meta description, target keywords, structured headings, image descriptions and internal links.",
+    "deliverables": "Article, SEO title, meta description, URL, related keywords, alt text, internal links",
+    "skills": [
+      "SEO content writing",
+      "Keyword targeting",
+      "On-page SEO"
+    ],
+    "cover": "serp",
+    "facts": [
+      {
+        "label": "Business",
+        "value": "Virtual Assistant Solutions."
+      },
+      {
+        "label": "Audience",
+        "value": "Business owners looking for clear explanations of AI agents and their possible uses in business operations."
+      },
+      {
+        "label": "Format",
+        "value": "An article of approximately 700 words, with SEO fields and supporting content structure."
+      }
+    ],
+    "challenge": "AI agents can be difficult to explain without technical language. The article needed to make the concept understandable to business owners while remaining focused on the search topic.",
+    "approach": [
+      "<b style=\"display:block\">Keyword alignment</b>I used the selected primary keyword and related search terms to guide the article's focus.",
+      "<b style=\"display:block\">Article structure</b>I organised the article around questions a business owner might ask, from understanding AI agents to considering their practical uses.",
+      "<b style=\"display:block\">Plain-language explanations</b>I used business examples to explain the subject without assuming the reader had a technical background.",
+      "<b style=\"display:block\">On-page SEO</b>I prepared the SEO title, meta description, URL, headings, image alt text and internal links."
+    ],
+    "deliverablesList": [
+      "Article of approximately 700 words.",
+      "SEO title and meta description.",
+      "Primary and related keyword placement.",
+      "Structured headings.",
+      "Image filenames and alt text.",
+      "Internal links to relevant website pages.",
+      "A call to action for interested readers."
+    ],
+    "skillsLine": "SEO content writing · Keyword targeting · On-page SEO",
+    "produced": "A structured, search-focused article with its supporting SEO fields and internal links prepared alongside the written content.",
+    "links": []
+  },
+  {
+    "id": "blog-post",
+    "cta": [
+      "Discuss Content for Your Business"
+    ],
+    "service": "Content",
+    "featured": true,
+    "order": 4,
+    "role": "Content research, writing and tutorial structure.",
+    "title": "Blog Post",
+    "cat": "Content writing",
+    "type": "Practical tutorial",
+    "headline": "A practical CRM setup guide for small businesses",
+    "sub": "I wrote a step-by-step guide to help small business owners organise client information and follow-ups in HubSpot Free CRM. The tutorial uses familiar business situations and examples relevant to businesses in Kenya and across Africa.",
+    "card": "A six-step tutorial showing small businesses in Kenya and across Africa how to set up HubSpot Free CRM, organise contacts, build a sales pipeline and create follow-up reminders.",
+    "summary": "A six-step tutorial showing small businesses in Kenya and across Africa how to set up HubSpot Free CRM, organise contacts, build a sales pipeline and create follow-up reminders.",
+    "deliverables": "Tutorial article, seven captioned graphics, before you start checklist, two calls to action",
+    "skills": [
+      "Tutorial writing",
+      "Audience targeting",
+      "Content structure"
+    ],
+    "cover": "hs_header",
+    "facts": [
+      {
+        "label": "Audience",
+        "value": "Small business owners in Kenya and across Africa who manage client information through WhatsApp, email or spreadsheets."
+      },
+      {
+        "label": "Platform covered",
+        "value": "HubSpot Free CRM, with Gmail integration."
+      }
+    ],
+    "challenge": "Small businesses can lose track of client details and follow-ups when information is spread across messages, inboxes and spreadsheets. The tutorial needed to turn CRM setup into a clear sequence that a reader could follow.",
+    "approach": [
+      "<b style=\"display:block\">Start with a familiar problem</b>I introduced common ways small businesses manage client information and explained when a CRM can help.",
+      "<b style=\"display:block\">Guide the reader through setup</b>I organised the tutorial into six steps, from creating an account and connecting Gmail to importing contacts and building a pipeline.",
+      "<b style=\"display:block\">Use relevant examples</b>I included practical details such as East Africa Time, KES or USD, lead sources and a service-business sales pipeline.",
+      "<b style=\"display:block\">Make the instructions easy to follow</b>I paired the steps with supporting graphics and examples to help readers understand what to do."
+    ],
+    "deliverablesList": [
+      "A six-step CRM setup tutorial.",
+      "A clear introduction and article structure.",
+      "Account and company setup instructions.",
+      "Gmail connection and contact import guidance.",
+      "A sample service-business pipeline.",
+      "Follow-up task instructions.",
+      "Supporting graphics for the tutorial."
+    ],
+    "skillsLine": "Tutorial writing · Audience targeting · Content structure",
+    "produced": "A practical guide that takes readers from initial CRM setup to organising contacts, tracking opportunities and setting follow-up reminders.",
+    "links": [
+      {
+        "label": "Read the blog post",
+        "href": "https://martha-karanja.gpkdigitalmarketing.org/how-to-set-up-hubspot-free-crm-for-your-small-business/"
+      }
+    ]
+  },
+  {
+    "id": "email-campaign",
+    "cta": [
+      "Discuss Email Marketing"
+    ],
+    "service": "Email",
+    "featured": true,
+    "order": 5,
+    "role": "Email copywriting, sequence planning and email design.",
+    "title": "Email Campaign",
+    "cat": "Email marketing",
+    "type": "Email sequence",
+    "headline": "Three emails, one clear offer",
+    "sub": "I developed a three-email sequence designed to introduce a business problem, explain the Systems & Automation Review and encourage the reader to book a session. The sequence combines copywriting, email design and a consistent call to action.",
+    "card": "A three-email sequence for a 60-minute Systems & Automation Review. Each email has its own subject line, preview text, designed graphic and call to action, guiding the reader from a familiar business problem to a clear next step.",
+    "summary": "A three-email sequence for a 60-minute Systems & Automation Review. Each email has its own subject line, preview text, designed graphic and call to action, guiding the reader from a familiar business problem to a clear next step.",
+    "deliverables": "Three emails with subject lines, preview text, full copy, three header graphics, a workflow diagram and calls to action",
+    "skills": [
+      "Email copywriting",
+      "Subject lines",
+      "Sequence planning"
+    ],
+    "cover": "email_hero",
+    "facts": [
+      {
+        "label": "Business",
+        "value": "Virtual Assistant Solutions."
+      },
+      {
+        "label": "Audience",
+        "value": "Business owners who have a process that takes more time or effort than it should."
+      },
+      {
+        "label": "Tool",
+        "value": "Mailchimp."
+      }
+    ],
+    "challenge": "Business owners may recognise that a process is taking too much time without knowing where to begin improving it. The sequence needed to make the offer understandable and give the reader a straightforward next step.",
+    "approach": [
+      "<b style=\"display:block\">Introduce a familiar situation</b>The first email uses the example of a new enquiry arriving while the business owner is occupied with other work.",
+      "<b style=\"display:block\">Explain the offer</b>The second email introduces the 60-minute review and explains what the session covers.",
+      "<b style=\"display:block\">Reduce the barrier to action</b>The third email reassures readers that they can bring their current process without first documenting or fixing it.",
+      "<b style=\"display:block\">Keep the sequence consistent</b>Each email has its own subject line, preview text, graphic and single primary call to action."
+    ],
+    "deliverablesList": [
+      "Three complete emails.",
+      "Subject lines and preview text.",
+      "Three email header graphics.",
+      "Supporting workflow diagram.",
+      "A consistent offer and call-to-action sequence."
+    ],
+    "skillsLine": "Email copywriting · Subject lines · Sequence planning",
+    "produced": "A coordinated email sequence with copy, design and calls to action prepared to guide readers from recognising a business problem to considering a Systems & Automation Review.",
+    "links": []
+  },
+  {
+    "id": "website-design-concept",
+    "cta": [
+      "Discuss a Website Project"
+    ],
+    "service": "Website Design",
+    "featured": true,
+    "order": 6,
+    "role": "Website structure, content planning and service messaging.",
+    "title": "Business Website Design Concept",
+    "cat": "Website Design",
+    "type": "Portfolio concept",
+    "headline": "A website designed to make a business easier to understand",
+    "sub": "This project explores how a service business website can present its offer clearly, organise information around customer needs and make the next step easy to find. The concept covers page structure, navigation, service messaging, mobile usability and enquiry pathways.",
+    "card": "A website design concept focused on clear service messaging, intuitive navigation and straightforward enquiry pathways. The project demonstrates how a business website can organise its pages, communicate its offer and guide visitors towards contacting the business.",
+    "summary": "A website design concept focused on clear service messaging, intuitive navigation and straightforward enquiry pathways. The project demonstrates how a business website can organise its pages, communicate its offer and guide visitors towards contacting the business.",
+    "skills": [
+      "Website structure",
+      "Service messaging",
+      "Enquiry pathways"
+    ],
+    "facts": [
+      {
+        "label": "Project type",
+        "value": "Website design concept."
+      },
+      {
+        "label": "Audience",
+        "value": "Business owners and founders looking for business operations and systems support."
+      },
+      {
+        "label": "Proposed platform",
+        "value": "WordPress, depending on the client's requirements and agreed scope."
+      }
+    ],
+    "challenge": "Visitors need to understand what a business offers, whether it meets their needs and how to get in touch without having to search through unclear pages or lengthy explanations.",
+    "approach": [
+      "<b style=\"display:block\">Page structure and navigation</b>I organised the main information into a clear hierarchy so visitors can move between the homepage, services and contact information.",
+      "<b style=\"display:block\">Service messaging</b>I focused on explaining the service offering in plain language, with attention to the customer's needs and the value of the service.",
+      "<b style=\"display:block\">Calls to action</b>I planned clear next steps to help interested visitors move from reading about a service to making an enquiry.",
+      "<b style=\"display:block\">Mobile usability</b>I considered how the layout, text and buttons should work on smaller screens as well as desktop displays.",
+      "<b style=\"display:block\">Trust and credibility</b>I focused on presenting relevant business information clearly without relying on invented testimonials or unverified results."
+    ],
+    "delivLabel": "What the concept covers",
+    "deliverablesList": [
+      "Website page structure and navigation.",
+      "Homepage and service-page content planning.",
+      "Service messaging and content layout.",
+      "Mobile and desktop layout considerations.",
+      "Contact and enquiry pathways.",
+      "Basic on-page SEO structure, including page titles, descriptions and headings.",
+      "A proposed WordPress implementation, subject to the client's needs and agreed scope."
+    ],
+    "skillsLine": "Website structure · Service messaging · Enquiry pathways",
+    "produced": "A structured approach to website planning that brings together page hierarchy, clear messaging, usability and enquiry pathways.",
+    "producedLabel": "What this project demonstrates",
+    "ctaHref": "#contact",
+    "links": [
+      {
+        "label": "Visit the live website",
+        "href": "https://www.virtualassistantsolutions.co.ke/"
+      }
+    ]
+  }
+]
