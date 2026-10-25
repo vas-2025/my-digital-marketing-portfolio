@@ -1,0 +1,183 @@
+# Pages CMS settings for the Martha Karanja portfolio.
+# Each entry below is one editable area. Saving creates a change in GitHub.
+# Text fields accept plain text. Some project fields contain small HTML tags such as <b>...</b>. Leave those tags in place.
+media:
+  input: images
+  output: /images
+
+content:
+  - name: pages
+    label: Page text (headings and paragraphs)
+    type: file
+    path: content/pages.json
+    format: json
+    fields:
+      - name: home
+        label: Home page
+        type: object
+        fields:
+          - { name: heroTitle, label: "Main heading", type: text }
+          - { name: heroIntro, label: "Intro paragraph", type: text }
+          - { name: problemsHeading, label: "Common problems heading", type: string }
+          - { name: projectsHeading, label: "Projects heading", type: string }
+          - { name: projectsIntro, label: "Projects intro", type: text }
+          - { name: ctaHeading, label: "Bottom call to action heading", type: string }
+      - name: caseStudy
+        label: Project detail pages
+        type: object
+        fields:
+          - { name: workHeading, label: "Heading above the work section", type: string }
+      - name: projects
+        label: Projects page
+        type: object
+        fields:
+          - { name: title, label: "Page heading", type: string }
+          - { name: intro, label: "Intro paragraph", type: text }
+      - name: help
+        label: How I can help page
+        type: object
+        fields:
+          - { name: title, label: "Page heading", type: string }
+          - { name: intro, label: "Intro paragraph", type: text }
+          - { name: websiteDesignHeading, label: "Website design heading", type: string }
+          - { name: websiteDesignText, label: "Website design paragraph", type: text }
+          - { name: processHeading, label: "How a project runs, heading", type: string }
+          - { name: processNote, label: "How a project runs, note", type: text }
+      - name: tools
+        label: Tools and Platforms section
+        type: object
+        fields:
+          - { name: heading, label: "Heading", type: string }
+          - { name: intro, label: "Intro paragraph", type: text }
+      - name: about
+        label: About page
+        type: object
+        fields:
+          - { name: title, label: "Page heading", type: string }
+          - { name: paragraph1, label: "Paragraph 1", type: text }
+          - { name: paragraph2, label: "Paragraph 2", type: text }
+          - { name: paragraph3, label: "Paragraph 3", type: text }
+          - { name: backgroundHeading, label: "Background heading", type: string }
+          - { name: approachHeading, label: "Approach heading", type: string }
+          - { name: approachText, label: "Approach paragraph", type: text }
+          - { name: howIWorkHeading, label: "How I work heading", type: string }
+          - { name: step1, label: "How I work, step 1", type: text }
+          - { name: step2, label: "How I work, step 2", type: text }
+          - { name: step3, label: "How I work, step 3", type: text }
+          - { name: ctaHeading, label: "Bottom call to action heading", type: string }
+      - name: contact
+        label: Contact page
+        type: object
+        fields:
+          - { name: title, label: "Page heading", type: string }
+          - { name: intro, label: "Intro paragraph", type: text }
+
+  - name: contact
+    label: Contact details
+    type: file
+    path: content/contact.json
+    format: json
+    fields:
+      - { name: email, label: "Email", type: string }
+      - { name: phone, label: "Phone", type: string }
+      - { name: location, label: "Location", type: string }
+      - { name: linkedin, label: "LinkedIn link", type: string }
+
+  - name: projects
+    label: Projects
+    type: file
+    path: content/projects.json
+    format: json
+    list: true
+    fields:
+      - { name: id, label: "Project ID (lowercase, no spaces, do not change for existing projects)", type: string }
+      - { name: title, label: "Title", type: string }
+      - { name: cat, label: "Label above the title", type: string }
+      - { name: type, label: "Type of work", type: string }
+      - { name: service, label: "Service group (SEO, Paid search, Content, Email)", type: string }
+      - { name: featured, label: "Show on the home page", type: boolean }
+      - { name: order, label: "Position (1 is first)", type: number }
+      - { name: hidden, label: "Hide this project", type: boolean }
+      - { name: role, label: "Your role", type: text }
+      - { name: date, label: "Date", type: string }
+      - { name: headline, label: "Big heading", type: text }
+      - { name: sub, label: "Line under the heading", type: text }
+      - { name: card, label: "Short text for the card", type: text }
+      - { name: summary, label: "Longer text for the project list", type: text }
+      - { name: skills, label: "Skills", type: string, list: true }
+      - { name: skillsLine, label: "Skills line shown on the project list", type: string }
+      - { name: cover, label: "Cover image name (picture changes are done by Claude)", type: string }
+      - name: facts
+        label: Quick facts
+        type: object
+        list: true
+        fields:
+          - { name: label, label: "Label", type: string }
+          - { name: value, label: "Value", type: text }
+      - { name: workIntro, label: "Work introduction", type: text }
+      - { name: objective, label: "Objective", type: text }
+      - { name: challenge, label: "Challenge", type: text }
+      - { name: approach, label: "Approach steps", type: text, list: true }
+      - { name: deliverablesList, label: "Deliverables list", type: text, list: true }
+      - { name: produced, label: "Produced", type: text }
+      - { name: producedLabel, label: "Produced, section label", type: string }
+      - { name: deliverables, label: "Deliverables note", type: text }
+      - { name: delivLabel, label: "Deliverables, section label", type: string }
+      - name: links
+        label: Links
+        type: object
+        list: true
+        fields:
+          - { name: label, label: "Link text", type: string }
+          - { name: href, label: "Web address", type: string }
+      - { name: cta, label: "Button text", type: string, list: true }
+      - { name: ctaHref, label: "Button link (leave empty to use the Contact page)", type: string }
+
+  - name: services
+    label: Services (How I can help page)
+    type: file
+    path: content/services.json
+    format: json
+    list: true
+    fields:
+      - { name: t, label: "Service name", type: string }
+      - { name: p, label: "The problem", type: text }
+      - { name: a, label: "My approach", type: text }
+      - { name: r, label: "You receive", type: text }
+      - name: exn
+        label: Relevant projects
+        type: object
+        list: true
+        fields:
+          - { name: project, label: "Project ID", type: string }
+          - { name: text, label: "Description", type: text }
+      - { name: c, label: "Button text", type: string }
+
+  - name: problems
+    label: Common problems (Home page)
+    type: file
+    path: content/problems.json
+    format: json
+    list: true
+    fields:
+      - { name: heading, label: "Problem", type: string }
+      - { name: text, label: "What I do about it", type: text }
+      - { name: project, label: "Project ID it links to", type: string }
+      - { name: linkLabel, label: "Link text", type: string }
+
+  - name: tools
+    label: Tools and Platforms (groups)
+    type: file
+    path: content/tools.json
+    format: json
+    list: true
+    fields:
+      - { name: g, label: "Group name", type: string }
+      - name: items
+        label: Tools
+        type: object
+        list: true
+        fields:
+          - { name: name, label: "Tool name", type: string }
+          - { name: use, label: "What it is used for", type: string }
+          - { name: ids, label: "Project IDs that show this tool", type: string, list: true }

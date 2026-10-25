@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Martha Karanja is a digital marketer in Nairobi working across SEO, paid search, blog content and email campaigns. View projects and get in touch.">
+<meta name="theme-color" content="#0F1B2A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Martha Karanja | Digital marketing: SEO, paid search, content and email">
+<meta property="og:description" content="Digital marketing projects and the services I can help with, from SEO and paid search to blog content and email campaigns.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2210%22%20fill%3D%22%230F1B2A%22/%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%3EMK%3C/text%3E%3Crect%20x%3D%2214%22%20y%3D%2250%22%20width%3D%2236%22%20height%3D%224%22%20fill%3D%22%23B3261E%22/%3E%3C/svg%3E">
+<title>Martha Karanja Portfolio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Open+Sans:wght@400;600;700&display=swap">
+<style>
+/* Layout: light header, hero with large statement and portrait frame, evidence led index, case studies on a fixed frame
+   (facts strip, evidence on a tinted band, prose, numbered approach, dark outcome band).
+   Everything maps to Google Sites: sections with background colours, columns, text, images, buttons, dividers. */
+:root{
+  --bg:#FFFFFF; --tint:#F1F3F5; --ink:#0F1B2A; --muted:#566271; --rule:#D8DDE3;
+  --accent:#B3261E; --link:#B3261E; --band:#0F1B2A; --band-ink:#FFFFFF; --band-muted:#B5BFCB;
+  --sheet:#FFFFFF; --shadow:0 1px 2px rgba(15,27,42,.08),0 14px 34px rgba(15,27,42,.10);
+  --display:"Oswald","Arial Narrow",Arial,sans-serif; --body:"Open Sans","Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0B121B; --tint:#111A26; --ink:#EEF1F4; --muted:#9AA6B4; --rule:#263140;
+  --link:#F08A80; --band:#05090E; --sheet:#172130; --shadow:0 1px 2px rgba(0,0,0,.4),0 14px 34px rgba(0,0,0,.45); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0B121B; --tint:#111A26; --ink:#EEF1F4; --muted:#9AA6B4; --rule:#263140;
+  --link:#F08A80; --band:#05090E; --sheet:#172130; --shadow:0 1px 2px rgba(0,0,0,.4),0 14px 34px rgba(0,0,0,.45); color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--body)}
+h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.12;margin:0;text-wrap:balance;letter-spacing:.005em}
+p{margin:0}
+a{color:var(--link)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1120px;margin-inline:auto;padding-inline:24px}
+.sec{padding-block:88px}
+.tint{background:var(--tint)}
+.band{background:var(--band);color:var(--band-ink)}
+.stack{display:flex;flex-direction:column;gap:18px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.cols>*,.stack>*{min-width:0}
+.kick{font:600 12px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.band .kick{color:var(--band-muted)}
+.prose{max-width:62ch}
+.muted{color:var(--muted)}
+.rule{border:0;border-top:1px solid var(--rule);margin:0}
+
+/* header */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--rule)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;min-height:68px;gap:16px}
+.brand{font:500 22px var(--display);color:var(--ink);text-decoration:none;letter-spacing:.02em}
+.brand span{color:var(--accent)}
+nav{display:flex;gap:6px;align-items:center}
+nav a,.navbtn{color:var(--ink);text-decoration:none;font:600 14px var(--body);padding:10px 12px;border-bottom:2px solid transparent}
+nav a:hover{border-bottom-color:var(--rule)}
+nav a.on{border-bottom-color:var(--accent)}
+.dd{position:relative}
+.dd .menu{display:none;position:absolute;left:0;top:100%;min-width:250px;background:var(--bg);box-shadow:var(--shadow);border-radius:6px;padding:8px}
+.dd:hover .menu,.dd:focus-within .menu{display:block}
+.dd .menu a{display:block;border:0;padding:9px 12px;font-weight:600}
+.dd .menu a:hover{background:var(--tint)}
+.burger{display:none;background:none;border:1px solid var(--rule);color:var(--ink);border-radius:6px;padding:8px 12px;font:600 14px var(--body);cursor:pointer}
+
+/* buttons and links */
+.btns{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.btn{display:inline-block;font:600 15px var(--body);padding:14px 24px;border-radius:4px;text-decoration:none;border:2px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer}
+.btn:hover{filter:brightness(1.1)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
+.band .btn.ghost{color:#fff;border-color:#fff}
+.more{font:600 15px var(--body);color:var(--link);text-decoration:none;border-bottom:2px solid currentColor;padding-bottom:2px}
+
+
+/* home mosaic */
+.mosaic{display:grid;grid-template-columns:repeat(6,1fr);gap:40px 28px}
+.tile{grid-column:span 2;display:flex;flex-direction:column;gap:14px;text-decoration:none;color:var(--ink);min-width:0}
+.tile .pic{aspect-ratio:16/10;border-radius:6px;overflow:hidden;background:var(--sheet);box-shadow:var(--shadow)}
+.tile .pic img{width:100%;height:100%;object-fit:contain;display:block;background:var(--tint)}
+.tile h3{font-size:24px}
+.tile p{font-size:15px;color:var(--muted)}
+.tile:hover h3{color:var(--link)}
+.tile .no{font:600 12px var(--body);letter-spacing:.14em;color:var(--accent)}
+.mini{padding:22px;font-size:13.5px;display:flex;flex-direction:column;gap:7px;color:var(--ink);height:100%;background:var(--sheet)}
+.mini>div{display:flex;justify-content:space-between;gap:12px;padding:7px 8px;border-bottom:1px solid var(--rule)}
+.mini>div.hit{background:var(--tint);font-weight:700}
+.mini .t{font:600 17px/1.3 var(--body);color:#1a0dab}
+.mini .u{font-size:12px;color:var(--muted)}
+.mini .d{font-size:13px;color:var(--muted);line-height:1.5}
+
+/* selected work index */
+.work{display:grid;grid-template-columns:1fr 1.15fr;gap:44px;padding-block:56px;border-top:1px solid var(--rule);align-items:center}
+.work>*{min-width:0}
+.work h2{font-size:clamp(30px,3.4vw,40px)}
+.work .pic{aspect-ratio:16/10;border-radius:6px;overflow:hidden;background:var(--sheet);box-shadow:var(--shadow);display:block;color:var(--ink);text-decoration:none}
+.work .pic img{width:100%;height:100%;object-fit:contain;display:block;background:var(--tint)}
+.dl{display:grid;grid-template-columns:96px 1fr;gap:6px 16px;font-size:14.5px;margin:0}
+.dl dt{font:600 11px/1.9 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.dl dd{margin:0}
+
+/* case study frame */
+.crumbs{font-size:14px;color:var(--muted)}
+.crumbs a{color:var(--muted)}
+.cs-head h1{font-size:clamp(36px,5vw,60px);line-height:1.06;max-width:20ch}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:28px 36px;border-top:2px solid var(--ink);padding-top:20px;margin:0}
+.facts dt{font:600 11px/1.4 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.facts dd{margin:0;font-size:15px;line-height:1.5}
+.lab{font:600 12px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:10px;display:block}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:1fr 1fr;gap:34px 56px}
+.steps li{counter-increment:s;position:relative;padding-left:58px}
+.steps li::before{content:counter(s);position:absolute;left:0;top:-4px;font:500 40px/1 var(--display);color:var(--accent)}
+.steps b{font-weight:700}
+.deliv{columns:2;column-gap:56px;margin:0;padding-left:20px}
+.deliv li{break-inside:avoid;margin-bottom:8px}
+.skilline{font:500 20px/1.5 var(--display);color:var(--ink);letter-spacing:.01em}
+.skilline i{color:var(--accent);font-style:normal;padding-inline:8px}
+.out{display:grid;grid-template-columns:repeat(3,1fr);gap:48px}
+.out h3{font-size:22px;margin-bottom:10px;color:var(--band-ink)}
+.out p{color:var(--band-ink);font-size:16px}
+
+/* evidence */
+.fig{margin:0;display:flex;flex-direction:column;gap:10px;min-width:0}
+.fig img{width:100%;height:auto;display:block;border-radius:6px;box-shadow:var(--shadow);background:var(--sheet)}
+.fig figcaption{font-size:14px;color:var(--muted)}
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:32px}
+.gal.three{grid-template-columns:repeat(3,1fr);gap:28px}
+.gal.one{grid-template-columns:1fr;max-width:760px}
+.gal.narrow{grid-template-columns:minmax(0,300px)}
+.sheet{background:var(--sheet);box-shadow:var(--shadow);border-radius:6px;padding:30px 34px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.sheet .src{font:600 11px/1.4 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.sheet h3{font-size:24px}
+.tscroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15.5px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font:600 11px var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+tr.hit td{background:var(--tint);font-weight:700}
+tr.hit td:first-child{box-shadow:inset 4px 0 0 var(--accent)}
+.say{font:500 24px/1.3 var(--display);max-width:38ch}
+.kv{display:grid;grid-template-columns:150px 1fr;gap:10px 20px;margin:0;font-size:15.5px}
+.kv dt{font:600 11px/1.9 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.kv dd{margin:0;overflow-wrap:anywhere}
+.serp{display:flex;flex-direction:column;gap:3px;max-width:600px}
+.serp .u{font-size:13px;color:var(--muted)}
+.serp .t{font:400 21px/1.3 Arial,sans-serif;color:#1a0dab}
+:root[data-theme="dark"] .serp .t,:root[data-theme="dark"] .mini .t{color:#8ab4f8}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .serp .t,:root:not([data-theme="light"]) .mini .t{color:#8ab4f8}}
+.serp .d{font-size:14.5px;color:var(--muted);line-height:1.55}
+.note{font-size:14px;color:var(--muted)}
+.read{max-width:64ch;display:flex;flex-direction:column;gap:14px}
+.read blockquote{margin:0;padding-left:18px;border-left:3px solid var(--accent)}
+.mails{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.mailc{background:var(--sheet);box-shadow:var(--shadow);border-radius:6px;padding:26px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.mailc .no{font:600 11px var(--body);letter-spacing:.14em;color:var(--accent);text-transform:uppercase}
+.mailc .subj{font:500 24px/1.2 var(--display)}
+.mailc .prev{font-size:14.5px;color:var(--muted)}
+.mailc .body{font-size:15px;border-left:3px solid var(--rule);padding-left:14px;line-height:1.6}
+.mailc .cta{align-self:flex-start;font:700 12px var(--body);letter-spacing:.08em;background:var(--accent);color:#fff;padding:9px 14px;border-radius:3px}
+.cols3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.cols3 h3{font-size:20px}
+.cols3 ul{margin:0;padding-left:18px;font-size:15px;display:flex;flex-direction:column;gap:6px}
+
+/* skills */
+.cap{display:grid;grid-template-columns:260px 1fr 220px;gap:32px;padding-block:26px;border-top:1px solid var(--rule);align-items:baseline}
+.cap:last-child{border-bottom:1px solid var(--rule)}
+.cap h3{font-size:24px}
+.cap .in{display:flex;flex-direction:column;gap:6px;font-size:14.5px}
+.cap .in a{font-weight:600;text-decoration:none}
+.cap .in a:hover{text-decoration:underline}
+
+.tg{display:grid;grid-template-columns:320px 1fr;gap:32px;padding-block:22px;border-top:1px solid var(--rule);align-items:baseline}
+.tg h3{font-size:22px}
+.toolgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.toolcat{background:var(--sheet);border-radius:6px;box-shadow:var(--shadow);padding:24px 26px}
+.toolcat h3{font-size:20px;margin-bottom:14px;padding-bottom:12px;border-bottom:2px solid var(--accent)}
+.toolcat ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.tool{display:flex;flex-direction:column;gap:2px}
+.tool b{font-weight:700;font-size:16px}
+.tool span{color:var(--muted);font-size:14px;line-height:1.5}
+.tool .tl2 a{font-weight:600;text-decoration:none}
+.tool .tl2 a:hover{text-decoration:underline}
+@media (max-width:1040px){.toolgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.facts2{display:grid;grid-template-columns:150px 1fr;gap:12px 20px;margin:0}
+.facts2 dt{font:600 11px/1.9 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.facts2 dd{margin:0}
+.pn{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.pn a{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:var(--ink);padding-block:18px;border-top:2px solid var(--ink)}
+.pn a:hover{border-top-color:var(--accent)}
+.pn a.r{text-align:right}
+.pn .t{font:500 26px var(--display)}
+footer{border-top:1px solid var(--rule);padding-block:32px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+@media (max-width:900px){
+  body{font-size:16px}
+  .sec{padding-block:56px}
+  .tg,.toolgrid{grid-template-columns:1fr}
+  .tg{gap:6px}
+  .cols,.work,.facts,.steps,.out,.gal,.gal.three,.mails,.cols3,.cap,.pn{grid-template-columns:1fr}
+  .mosaic{grid-template-columns:1fr}.mosaic .tile,.mosaic .tile:nth-child(n+4),.mosaic.n5 .tile:nth-child(n+4),.mosaic.n4 .tile{grid-column:auto}
+  .work{gap:20px;padding-block:40px}
+  .deliv{columns:1}
+  .dd .menu{display:block;position:static;box-shadow:none;padding:0 0 0 14px}
+  .kv,.facts2{grid-template-columns:1fr}
+  .pn a.r{text-align:left}
+  .cap{gap:12px}
+}
+
+/* v2 additions */
+nav a,.navbtn{padding:10px 10px}
+.work.flip{grid-template-columns:1.15fr 1fr}
+.work.flip .pic{order:-1}
+.cs{border-top:3px solid var(--accent)}
+.cs[hidden]{display:none}
+.cs-h{font-size:clamp(30px,4vw,46px);line-height:1.08;max-width:22ch}
+.probs{display:grid;grid-template-columns:1fr 1fr;gap:0 64px}
+.prob{padding-block:22px;border-top:1px solid var(--rule);display:flex;flex-direction:column;gap:6px}
+.prob h3{font-size:24px}
+.prob p{color:var(--muted);font-size:15.5px}
+.prob a{font-weight:600;font-size:14.5px;text-decoration:none}
+.prob a:hover{text-decoration:underline}
+.svc{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;padding-block:56px;border-top:1px solid var(--rule)}
+.svc>*{min-width:0}
+.svc h2{font-size:clamp(28px,3.2vw,38px)}
+.svc .num{font:500 52px/1 var(--display);color:var(--accent);display:block;margin-bottom:14px}
+.svc dl{margin:0;display:grid;grid-template-columns:150px 1fr;gap:18px 24px}
+.svc dt{font:600 11px/1.9 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.svc dd{margin:0}
+.svc .ex{font-size:14.5px;color:var(--muted)}
+.svc .ex a{font-weight:600;text-decoration:none}
+.cta{padding-block:72px}
+.cta .wrap{display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap}
+.cta h2{font-size:clamp(28px,3.6vw,42px);max-width:22ch;color:var(--band-ink)}
+.steps3{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.steps3 li{counter-increment:s;padding-top:18px;border-top:2px solid var(--ink)}
+.steps3 li::before{content:counter(s);display:block;font:500 40px/1 var(--display);color:var(--accent);margin-bottom:10px}
+.steps3 b{display:block;font:500 22px/1.2 var(--display);margin-bottom:6px}
+.steps3 span,.steps3 p{display:block;margin:0;color:var(--muted);font-size:15.5px;line-height:1.6}
+.about-tools{margin-top:0}
+.cs-nav{display:flex;gap:22px;flex-wrap:wrap}
+@media (max-width:900px){
+  .work.flip{grid-template-columns:1fr}.work.flip .pic,.work.flip .stack{grid-column:auto;grid-row:auto;order:0}
+  .probs,.svc,.svc dl,.steps3{grid-template-columns:1fr}
+  .svc{gap:28px;padding-block:40px}.svc dl{gap:6px}.svc dd{margin-bottom:14px}
+  }
+
+.portrait{aspect-ratio:4/5;width:100%;max-width:380px;margin-inline:auto;position:relative;border-radius:6px;overflow:hidden;box-shadow:var(--shadow)}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block}
+.portrait::after{content:"";position:absolute;right:0;bottom:0;width:38%;height:6px;background:var(--accent)}
+@media (max-width:900px){.portrait{max-width:300px;margin-inline:0}}
+/* hero with photo */
+.hero2{position:relative;background:#fff;overflow:hidden;min-height:clamp(560px,50vw,700px);display:flex;align-items:center}
+.hero2-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:100% 50%;display:block}
+.hero2-in{position:relative;width:100%;padding-block:104px 72px}
+.hero2-text{max-width:520px;color:#fff}
+.hero2-text h1{font-size:clamp(32px,3.9vw,50px);line-height:1.06;color:#fff}
+.hero2-text .lede{font-size:19px;color:#fff;max-width:46ch}
+.btn.light{background:#fff;color:#0F1B2A;border-color:#fff}
+.hero2-text .btn.ghost{color:#fff;border-color:#fff}
+@media (max-width:900px){
+  .hero2{display:block;min-height:0;background:linear-gradient(#b8351f,#bf3f29)}
+  .hero2-img{position:static;height:340px;object-position:72% 20%;order:2}
+  .hero2-in{padding-block:40px 28px}
+  .hero2-text{max-width:none}
+}
+
+/* v7 additions */
+.skip{position:absolute;left:-9999px;top:8px;background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:4px;z-index:60}
+.skip:focus{left:8px}
+nav a.navcta{background:var(--accent);color:#fff;border:0;border-radius:4px;padding:10px 16px;margin-left:8px}
+nav a.navcta:hover{filter:brightness(1.1)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.chip{font:600 14px var(--body);padding:9px 16px;border-radius:4px;border:1px solid var(--rule);background:transparent;color:var(--ink);cursor:pointer}
+.chip:hover{border-color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.proj[hidden]{display:none}
+.mosaic.n5 .tile:nth-child(n+4),.mosaic.n4 .tile{grid-column:span 3}
+.mosaic .tile:nth-child(n+4){grid-column:span 2}
+.mosaic.n5 .tile:nth-child(n+4){grid-column:span 3}
+.out{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.facts{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.btn:focus-visible,.chip:focus-visible,.more:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.band .btn:focus-visible,.band .more:focus-visible,.hero2 a:focus-visible{outline-color:#fff}
+@media (max-width:1040px){
+  .burger{display:block}
+  nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--bg);border-bottom:1px solid var(--rule);flex-direction:column;align-items:stretch;padding:8px 24px 16px;gap:0}
+  nav.open{display:flex}
+  nav a.navcta{margin:10px 0 0;text-align:center}
+}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.band a:focus-visible,.hero2 a:focus-visible{outline-color:#fff}
+/* v8: mobile hardening, touch targets, editor friendliness */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{overflow-wrap:break-word}
+img{max-width:100%}
+.cols-about{grid-template-columns:.7fr 1.3fr;align-items:center;gap:72px}
+.cols-top{align-items:start;gap:72px}
+.mosaic>*,.work>*,.facts>*,.steps>*,.out>*,.gal>*,.mails>*,.cols3>*,.cap>*,.tg>*,.toolgrid>*,.svc>*,.steps3>*,.probs>*,.pn>*,.kv>*,.facts2>*,.dl>*,.svc dl>*,.hero2-in>*{min-width:0}
+.kv dd,.facts2 dd,.facts dd,.dl dd,.svc dd,td,.mailc .subj,.mailc .body{overflow-wrap:anywhere}
+.mini span,.mini>div{min-width:0;overflow-wrap:anywhere}
+.btn{min-height:44px;max-width:100%;text-align:center}
+.chip{min-height:44px}
+.tscroll{max-width:100%;-webkit-overflow-scrolling:touch}
+.tscroll:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.cs,.work,.proj,#tools{scroll-margin-top:84px}
+main:focus{outline:none}
+@media (max-width:1040px),(pointer:coarse){
+  .more,.prob a,.cap .in a,.tool .tl2 a,.crumbs a,.svc .ex a,.mailc .more{position:relative}
+  .more::after,.prob a::after,.cap .in a::after,.tool .tl2 a::after,.crumbs a::after,.svc .ex a::after,.mailc .more::after{content:"";position:absolute;inset:-11px -6px}
+}
+@media (max-width:1040px){
+  .burger{min-height:44px;min-width:44px}
+  nav{max-height:calc(100vh - 68px);max-height:calc(100dvh - 68px);overflow-y:auto}
+  nav a{min-height:44px;display:flex;align-items:center}
+  nav a.navcta{justify-content:center}
+}
+@media (max-width:900px){
+  /* v7 span rules come after the original 900px block and kept tiles spanning 2 to 3 columns in a one column grid */
+  .mosaic,.mosaic.n4,.mosaic.n5{grid-template-columns:minmax(0,1fr)}
+  .mosaic .tile,.mosaic .tile:nth-child(n+4),.mosaic.n5 .tile:nth-child(n+4),.mosaic.n4 .tile{grid-column:auto}
+  .cols-about,.cols-top{grid-template-columns:1fr;gap:32px}
+  .tile p,.prob p,.steps3 span,.steps3 p,.mailc .prev,.mailc .body,.cols3 ul,.kv,.facts dd,.dl,.tool span,.serp .d,.facts2,.cap .in,.prob a,.svc .ex,.skilline{font-size:16px}
+  .cols3 p{font-size:16px!important}
+  .tscroll table{min-width:560px}
+  th,td{padding:10px 12px}
+  .hero2-img{height:clamp(240px,64vw,340px)}
+  .hero2-text .lede{font-size:18px}
+  .portrait{max-width:min(300px,100%)}
+}
+@media (max-width:600px){
+  .wrap{padding-inline:18px}
+  nav{padding-inline:18px}
+  .sheet{padding:22px 18px}
+  .mailc{padding:20px 18px}
+  .toolcat{padding:20px 18px}
+  .dl{grid-template-columns:1fr;gap:2px}
+  .dl dd{margin-bottom:10px}
+  .facts{gap:22px}
+  .steps li{padding-left:50px}
+  .mailc .subj{font-size:22px}
+}
+@media (max-width:480px){
+  .btns>.btn{flex:1 1 100%}
+  .cta .wrap{flex-direction:column;align-items:stretch}
+  .cta .wrap .btn{width:100%}
+  .chips{gap:8px}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+</style>
+
+</head>
+<body>
+<a class="skip" href="#app" data-skip>Skip to content</a>
+<header class="bar" id="site-header" data-section="header"><div class="wrap">
+  <a class="brand" href="#home">Martha Karanja<span>.</span></a>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" aria-label="Main"></nav>
+</div></header>
+<main id="app" data-section="page-content" tabindex="-1"></main>
+<footer id="site-footer" data-section="footer"><div class="wrap"><span data-editable="text">© 2026 Martha Karanja · Digital marketing portfolio</span></div></footer>
+
+<script src="images.js"></script>
+<script>
+/* ============ HOW THIS PAGE IS BUILT ============
+   The text and project details live in the content folder (content/*.json), not in this file.
+   Pictures are in images.js. This file holds the design and the code that builds each page.
+   Edit text in the content editor (Pages CMS) or ask Claude. Please do not edit this file by hand.
+   ================================================ */
+(async function(){
+async function loadContent(){
+  const get = async f => { const r = await fetch("content/"+f, {cache:"no-cache"}); if(!r.ok) throw new Error(f+" "+r.status); return r.json(); };
+  const [pages,contact,projects,layouts,services,problems,tools] = await Promise.all(["pages.json","contact.json","projects.json","project-layouts.json","services.json","problems.json","tools.json"].map(get));
+  return {
+    pages, contact,
+    projects: projects.map(p=>{ const q={...p}; if(Array.isArray(p.facts)) q.facts=p.facts.map(f=>[f.label,f.value]); q.blocks=(layouts[p.id]||{}).blocks||[]; return q; }),
+    services: services.map(s=>({...s, exn:Object.fromEntries((s.exn||[]).map(x=>[x.project,x.text]))})),
+    problems: problems.map(x=>[x.heading,x.text,x.project,x.linkLabel]),
+    toolGroups: tools
+  };
+}
+let DATA;
+try{ DATA = await loadContent(); }
+catch(err){ document.getElementById("app").innerHTML='<p style="padding:48px 24px;text-align:center">This page could not load its content. Please refresh, or try again in a moment.</p>'; console.error(err); return; }
+const CONTACT = DATA.contact, ALL_PROJECTS = DATA.projects, TOOL_GROUPS = DATA.toolGroups, PROBLEMS = DATA.problems, SERVICES = DATA.services, PAGES = DATA.pages;
+
+const HOME_MAX = 6;   /* most projects shown on the home page */
+const PROJECTS = ALL_PROJECTS.filter(p=>!p.hidden).sort((a,b)=>(a.order??999)-(b.order??999));
+const SERVICE_NAME = {"Website Design":"website design","SEO":"SEO and content optimisation","Paid search":"SEM and paid search planning","Content":"Blog content and content strategy","Email":"Email marketing campaigns"};
+
+/* ---------- helpers ---------- */
+const $ = s => document.querySelector(s);
+const app = $("#app");
+const byId = id => PROJECTS.find(p => p.id === id);
+const pad = n => String(n).padStart(2,"0");
+const li = a => a.map(x => `<li>${x}</li>`).join("");
+function fig(k, alt, cap){ return IMG[k] ? `<figure class="fig"><img src="${IMG[k]}" alt="${alt||""}" loading="lazy">${cap?`<figcaption>${cap}</figcaption>`:""}</figure>` : ""; }
+function cover(p){
+  if(p.cover==="kw") return `<div class="mini"><span class="kick">Ahrefs keyword research</span><div><span>agentic AI</span><span>Hard · &gt;100K</span></div><div><span>what is agentic AI</span><span>Easy · &gt;10,000</span></div><div><span>agentic AI meaning</span><span>Hard · &gt;1,000</span></div><div class="hit"><span>AI agents for business</span><span>Easy · &gt;1,000</span></div><div><span>best AI agents for business</span><span>Medium · &gt;100</span></div></div>`;
+  if(p.cover==="serp") return `<div class="mini" style="gap:4px;justify-content:center"><span class="u">…/ai-agents-for-business/</span><span class="t">What Is Agentic AI for Business, and How Does It Work?</span><span class="d">Learn how AI agents for business can automate tasks, support operations, and improve workflows while reducing the need for manual work.</span></div>`;
+  if(IMG[p.cover]) return `<img src="${IMG[p.cover]}" alt="">`;
+  return `<div class="mini" style="justify-content:center"><span class="kick">${p.cat||""}</span><span class="t" style="color:var(--ink)">${p.title}</span></div>`;
+}
+function tile(p){ return `<a class="tile" href="#projects-${p.id}"><div class="pic">${cover(p)}</div><div class="stack" style="gap:6px">${p.cat?`<span class="no">${p.cat.toUpperCase()}</span>`:""}<h3>${p.title}</h3><p>${p.card||p.summary||p.sub||""}</p></div></a>`; }
+/* ---------- evidence blocks ---------- */
+function block(b){
+  switch(b.t){
+  case "gallery": return b.imgs.some(i=>IMG[i[0]]) ? `<div class="gal ${b.cls||""}">${b.imgs.map(i=>fig(...i)).join("")}</div>` : "";
+  case "table": return `<div class="sheet"><span class="src">${b.src}</span>${b.title?`<h3>${b.title}</h3>`:""}${b.intro?`<p class="muted">${b.intro}</p>`:""}<div class="tscroll" tabindex="0" role="region" aria-label="${(b.src||"Table").replace(/"/g,"&quot;")}"><table><thead><tr>${b.head.map(h=>`<th>${h}</th>`).join("")}</tr></thead><tbody>${b.rows.map((r,i)=>`<tr class="${b.hit===i?"hit":""}">${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table></div>${b.after||""}</div>`;
+  case "sheet": return `<div class="sheet"><span class="src">${b.src}</span>${b.html}</div>`;
+  case "sheets": return `<div class="cols">${b.items.map(s=>`<div class="sheet"><span class="src">${s.src}</span>${s.html}</div>`).join("")}</div>`;
+  case "cols3": return `<div class="sheet"><span class="src">${b.src}</span><div class="cols3">${b.cols.map(([h,l,d])=>`<div class="stack" style="gap:10px"><h3>${h}</h3>${d?`<p style="font-size:15px">${d}</p>`:""}<ul>${li(l)}</ul></div>`).join("")}</div></div>`;
+  case "emails": return `<div class="mails">${b.items.map(m=>`<div class="mailc"><span class="no">${m.no}</span><span class="subj">${m.subj}</span><span class="prev">Preview: ${m.prev}</span><p class="body">${m.body}</p><span class="cta">${m.cta}</span><a class="more" style="align-self:flex-start;font-size:14px" href="${m.href}" target="_blank" rel="noopener">View this email online</a></div>`).join("")}</div>`;
+  }
+  return "";
+}
+
+/* ---------- pages ---------- */
+function exLinks(ids){ return ids.map(id=>`<a href="#projects-${id}">${byId(id).title}</a>`).join(" and "); }
+
+function home(){
+  return `
+  <section class="hero2" id="home-hero" data-section="hero">
+    <img class="hero2-img" src="${IMG.hero}" alt="Portrait of Martha Karanja" decoding="async" fetchpriority="high">
+        <div class="wrap hero2-in"><div class="hero2-text stack" style="gap:24px">
+      <h1 data-editable="text">${PAGES.home.heroTitle}</h1>
+      <p class="lede" data-editable="text">${PAGES.home.heroIntro}</p>
+      <div class="btns"><a class="btn light" href="#projects">View My Work</a><a class="btn ghost" href="#contact">Get in Touch</a></div>
+    </div></div>
+  </section>
+  <section class="sec tint" id="home-help" data-section="how-i-can-help"><div class="wrap stack" style="gap:36px">
+    <div class="stack" style="gap:10px"><span class="kick">How I can help</span><h2 style="font-size:clamp(30px,4vw,44px);max-width:20ch" data-editable="text">${PAGES.home.problemsHeading}</h2></div>
+    <div class="probs">${PROBLEMS.filter(x=>byId(x[2])).map(([h,d,id,lab])=>`<div class="prob"><h3>${h}</h3><p>${d}</p><a href="#projects-${id}">${lab} →</a></div>`).join("")}</div>
+    <div><a class="more" href="#help">See what I do and what you receive</a></div>
+  </div></section>
+  <section class="sec" id="home-projects" data-section="featured-projects"><div class="wrap stack" style="gap:44px">
+    <div class="stack" style="gap:10px"><h2 style="font-size:clamp(30px,4vw,44px)" data-editable="text">${PAGES.home.projectsHeading}</h2><p class="lede muted prose" data-editable="text">${PAGES.home.projectsIntro}</p></div>
+    ${(()=>{const f=PROJECTS.filter(p=>p.featured).slice(0,HOME_MAX);return `<div class="mosaic n${f.length}">${f.map(tile).join("")}</div>`;})()}
+    <div><a class="btn" href="#projects">View all projects</a></div>
+  </div></section>
+  <section class="sec band cta" id="home-cta" data-section="call-to-action"><div class="wrap"><h2 data-editable="text">${PAGES.home.ctaHeading}</h2><a class="btn" href="#contact">Get in Touch</a></div></section>`;
+}
+function workRow(p,i){
+  return `<article class="work ${i%2?"flip":""}" id="row-${p.id}">
+    <div class="stack" style="gap:16px"><span class="kick">${[p.cat,p.type].filter(Boolean).join(" · ")}</span><h2>${p.title}</h2>
+      <p class="muted">${p.summary||p.card||p.sub||""}</p>
+      ${(p.skills||[]).length?`<p class="skilline" style="font-size:17px">${p.skillsLine||p.skills.slice(0,3).join('<i>/</i>')}</p>`:""}
+      <div class="btns" style="margin-top:6px"><a class="btn" href="#projects-${p.id}" data-cs="${p.id}" aria-expanded="false" aria-controls="cs-${p.id}">View Case Study</a></div></div>
+    <a class="pic" href="#projects-${p.id}" data-cs="${p.id}" tabindex="-1" aria-hidden="true">${cover(p)}</a></article>`;
+}
+function caseBody(p){
+  const i = PROJECTS.indexOf(p), next = PROJECTS[i+1], prev = PROJECTS[i-1];
+  const facts = [...(p.role?[["Role",p.role]]:[]), ...(p.date?[["Date",p.date]]:[]), ...(p.facts||[])];
+  const svc = SERVICE_NAME[p.service];
+  const cta = p.cta || (svc ? ["Enquire About "+svc] : ["Get in Touch"]);
+  const sect = (inner,pad="40px") => inner ? `<section class="sec" style="padding-block:${pad}"><div class="wrap stack" style="gap:30px">${inner}</div></section>` : "";
+  return `
+  <section class="sec cs-head" data-cs-section="header" style="padding-block:56px 48px"><div class="wrap stack" style="gap:22px">
+    <span class="kick">${[p.cat,p.type].filter(Boolean).join(" · ")}</span>
+    <h2 class="cs-h">${p.headline||p.title}</h2>
+    ${p.sub?`<p class="lede muted prose">${p.sub}</p>`:""}
+    ${facts.length?`<dl class="facts" style="margin-top:20px">${facts.map(([k,v])=>`<div><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>`:""}
+  </div></section>
+  ${(p.blocks||[]).length?`<section class="sec tint" style="padding-block:64px"><div class="wrap stack" style="gap:32px">${p.workIntro?`<div class="stack" style="gap:10px"><h2 style="font-size:clamp(28px,3.6vw,40px)" data-editable="text">${PAGES.caseStudy.workHeading}</h2><p class="lede muted prose">${p.workIntro}</p></div>`:`<span class="kick">The work</span>`}${p.blocks.map(block).join("")}</div></section>`:""}
+  ${p.challenge?`<section class="sec" style="padding-block:72px 40px"><div class="wrap stack" style="gap:14px"><span class="lab">Challenge</span><p class="prose">${p.challenge}</p></div></section>`:""}
+  ${(p.approach||[]).length?sect(`<span class="lab" style="margin:0">Approach</span><ol class="steps">${li(p.approach)}</ol>`):""}
+  ${((p.deliverablesList||[]).length||(p.skills||[]).length)?`<section class="sec" style="padding-block:40px 72px"><div class="wrap stack" style="gap:34px"><hr class="rule"><div class="cols">
+    ${(p.deliverablesList||[]).length?`<div><span class="lab">${p.delivLabel||"Deliverables"}</span><ul class="deliv" style="columns:1">${li(p.deliverablesList)}</ul></div>`:"<div></div>"}
+    ${(p.skills||[]).length?`<div><span class="lab">Skills demonstrated</span><p class="skilline">${p.skillsLine||p.skills.join('<i>/</i>')}</p></div>`:"<div></div>"}</div></div></section>`:""}
+  <section class="sec band" data-cs-section="outcome" style="padding-block:72px"><div class="wrap stack" style="gap:36px">
+    ${p.produced?`<div class="stack" style="gap:12px"><h2 style="font-size:clamp(26px,3vw,34px);color:var(--band-ink)">${p.producedLabel||"What this project produced"}</h2><p class="prose" style="color:var(--band-ink);font-size:18px">${p.produced}</p></div>`:""}
+    <div class="btns">${cta?(p.ctaHref?`<a class="btn" href="${p.ctaHref}">${cta[0]}</a>`:`<a class="btn" href="#contact">${cta[0]}</a>`):""}${(p.links||[]).map(l=>`<a class="btn ghost" href="${l.href}" target="_blank" rel="noopener">${l.label}</a>`).join("")}<a class="more" style="color:#fff" href="#projects" data-close="${p.id}">Close Case Study</a>${prev?`<a class="more" style="color:#fff" href="#projects-${prev.id}" data-cs="${prev.id}" data-nav="prev">Previous: ${prev.title}</a>`:""}${next?`<a class="more" style="color:#fff" href="#projects-${next.id}" data-cs="${next.id}" data-nav="next">Next: ${next.title}</a>`:""}</div>
+  </div></section>`;
+}
+function projectsPage(){
+  const groups=[...new Set(PROJECTS.map(p=>p.service).filter(Boolean))];
+  return `<section class="sec" id="projects-intro-section" data-section="projects-intro" style="padding-bottom:24px"><div class="wrap stack" style="gap:20px">
+    <h1 style="font-size:clamp(36px,5vw,60px);max-width:20ch" data-editable="text">${PAGES.projects.title}</h1>
+    <p class="lede muted prose" data-editable="text">${PAGES.projects.intro}</p>
+    ${groups.length>1?`<div class="chips" role="group" aria-label="Filter projects by service"><button class="chip" type="button" data-filter="" aria-pressed="true">All</button>${groups.map(g=>`<button class="chip" type="button" data-filter="${g}" aria-pressed="false">${g}</button>`).join("")}</div>`:""}
+  </div></section>
+  ${PROJECTS.map((p,i)=>`<div class="proj" data-project="${p.id}" data-service="${p.service||""}"><section class="wrap" style="padding-bottom:0">${workRow(p,i)}</section><div class="cs" id="cs-${p.id}" hidden>${caseBody(p)}</div></div>`).join("")}
+  <div style="height:56px"></div>`;
+}
+function help(){
+  return `<section class="sec" id="help-intro" data-section="help-intro" style="padding-bottom:24px"><div class="wrap stack" style="gap:20px">
+    <span class="kick">How I can help</span><h1 style="font-size:clamp(36px,5vw,60px);max-width:20ch" data-editable="text">${PAGES.help.title}</h1>
+    <p class="lede muted prose" data-editable="text">${PAGES.help.intro}</p>
+  </div></section>
+  <section class="wrap">${SERVICES.map((s,i)=>`<div class="svc"><div><span class="num">${pad(i+1)}</span><h2>${s.t}</h2></div>
+    <div class="stack" style="gap:20px"><dl><dt>The problem</dt><dd>${s.p}</dd><dt>My approach</dt><dd>${s.a}</dd><dt>You receive</dt><dd>${s.r}</dd>${Object.keys(s.exn).filter(byId).length?`<dt>Relevant project</dt><dd>${Object.keys(s.exn).filter(byId).map(id=>`<span style="display:block;margin-bottom:6px">${s.exn[id]} <a class="more" href="#projects-${id}">View ${byId(id).title}</a></span>`).join("")}</dd>`:""}</dl><div><a class="btn" href="#contact">${s.c}</a></div></div></div>`).join("")}</section>
+  ${byId("website-design-concept")?`<section class="svc wrap"><div><span class="num">${pad(SERVICES.length+1)}</span><h2 data-editable="text">${PAGES.help.websiteDesignHeading}</h2></div>
+    <div class="stack" style="gap:20px"><p class="prose"><b>Your website should explain what your business offers, help visitors find the information they need and make it easy for them to take the next step.</b></p>
+    <p class="prose" data-editable="text">${PAGES.help.websiteDesignText}</p>
+    <dl><dt>You receive</dt><dd>A website structure and design tailored to your business, with the pages, content and functionality agreed before work begins.</dd><dt>Platform</dt><dd>WordPress is one option for suitable projects. The platform and scope will depend on your business needs.</dd><dt>Relevant project</dt><dd><span style="display:block">Business Website Design Concept <a class="more" href="#projects-website-design-concept">View Website Design Concept</a></span></dd></dl>
+    <div><a class="btn" href="#contact">Discuss a Website Project</a></div></div></section>`:""}
+  <section class="sec tint" id="help-process" data-section="how-a-project-runs" style="margin-top:24px"><div class="wrap stack" style="gap:34px">
+    <div class="stack" style="gap:10px"><span class="kick">Working together</span><h2 style="font-size:clamp(28px,3.6vw,40px)" data-editable="text">${PAGES.help.processHeading}</h2></div>
+    <ol class="steps3"><li><b>Understand the business</b><span>What you sell, who buys it and what you want the marketing to achieve.</span></li><li><b>Agree the scope</b><span>What is included, what you will receive and how you will review it.</span></li><li><b>Deliver and explain</b><span>The work, with the reasoning shown so you can use it and build on it.</span></li></ol>
+    <p class="prose muted" data-editable="text">${PAGES.help.processNote}</p>
+    <div class="btns"><a class="btn" href="#contact">Get in Touch</a><a class="btn ghost" href="#projects">View My Work</a></div>
+  </div></section>`;
+}
+function toolsSection(){
+  return `<section class="sec" id="tools" data-section="tools"><div class="wrap stack" style="gap:34px">
+    <div class="stack" style="gap:10px"><h2 style="font-size:clamp(28px,3.6vw,40px)" data-editable="text">${PAGES.tools.heading}</h2>
+      <p class="prose muted" data-editable="text">${PAGES.tools.intro}</p></div>
+    <div class="toolgrid">${TOOL_GROUPS.map((g,gi)=>`<section class="toolcat" aria-labelledby="tg-${gi}"><h3 id="tg-${gi}">${g.g}</h3>
+      <ul>${g.items.map(t=>`<li class="tool"><b>${t.name}</b>${t.use?`<span>${t.use}</span>`:""}${t.ids.filter(byId).length?`<span class="tl2">${t.ids.filter(byId).map(id=>`<a href="#projects-${id}">${byId(id).title} \u2192</a>`).join(" ")}</span>`:""}</li>`).join("")}</ul></section>`).join("")}</div>
+  </div></section>`;
+}
+function about(){
+  return `<section class="sec" id="about-intro" data-section="about-intro"><div class="wrap cols cols-about">
+    <div class="portrait"><img src="${IMG.about}" alt="Portrait of Martha Karanja"></div>
+    <div class="stack" style="gap:22px">
+      <span class="kick">About me</span>
+      <h1 style="font-size:clamp(34px,4.6vw,54px)" data-editable="text">${PAGES.about.title}</h1>
+      <p class="prose" data-editable="text">${PAGES.about.paragraph1}</p>
+      <p class="prose" data-editable="text">${PAGES.about.paragraph2}</p>
+      <p class="prose" data-editable="text">${PAGES.about.paragraph3}</p>
+    </div>
+  </div></section>
+  <section class="sec tint" id="about-background" data-section="background"><div class="wrap cols cols-top">
+    <div class="stack" style="gap:14px"><h2 style="font-size:clamp(26px,3vw,34px)" data-editable="text">${PAGES.about.backgroundHeading}</h2></div>
+    <dl class="facts2"><dt>Professional development</dt><dd>Digital Marketing (AI-Enhanced)</dd><dt>Certification</dt><dd>Microsoft AI Trainer</dd><dt>Education</dt><dd>Bachelor of Business Management, Mount Kenya University</dd><dt>Business experience</dt><dd>Approximately nine years of experience across hardware procurement, retail operations, e-commerce, event management and operations consulting.</dd></dl>
+  </div></section>
+  <section class="sec" id="about-approach" data-section="approach"><div class="wrap cols cols-top">
+    <div class="stack" style="gap:14px"><h2 style="font-size:clamp(26px,3vw,34px)" data-editable="text">${PAGES.about.approachHeading}</h2></div>
+    <p class="prose" data-editable="text">${PAGES.about.approachText}</p>
+  </div></section>
+  <section class="sec tint" id="about-how-i-work" data-section="how-i-work"><div class="wrap stack" style="gap:34px">
+    <div class="stack" style="gap:10px"><h2 style="font-size:clamp(28px,3.6vw,40px)" data-editable="text">${PAGES.about.howIWorkHeading}</h2></div>
+    <ol class="steps3"><li><b>Understand the brief</b><p data-editable="text">${PAGES.about.step1}</p></li><li><b>Plan the work</b><p data-editable="text">${PAGES.about.step2}</p></li><li><b>Create and review</b><p data-editable="text">${PAGES.about.step3}</p></li></ol>
+  </div></section>
+  ${toolsSection()}
+  <section class="sec band cta" id="about-cta" data-section="call-to-action"><div class="wrap"><h2 data-editable="text">${PAGES.about.ctaHeading}</h2><a class="btn" href="#contact">Get in Touch</a></div></section>`;
+}
+function contact(){
+  const rows=[["Email",CONTACT.email,v=>`<a href="mailto:${v}">${v}</a>`],["Phone",CONTACT.phone,v=>`<a href="tel:${v.replace(/[^+\d]/g,"")}">${v}</a>`],["Location",CONTACT.location,v=>v],["LinkedIn",CONTACT.linkedin,v=>`<a href="${v}" target="_blank" rel="noopener">Martha Wambui Karanja</a>`]]
+    .filter(r=>r[1]).map(([k,v,f])=>`<dt>${k}</dt><dd>${f(v)}</dd>`).join("");
+  return `<section class="sec" id="contact-details" data-section="contact"><div class="wrap cols cols-top">
+    <div class="stack" style="gap:20px"><span class="kick">Contact</span><h1 style="font-size:clamp(34px,4.6vw,54px)" data-editable="text">${PAGES.contact.title}</h1>
+      <p class="prose" data-editable="text">${PAGES.contact.intro}</p><div class="btns"><a class="btn" href="mailto:${CONTACT.email}">Email Me</a></div></div>
+    <div class="stack" style="gap:28px"><span class="lab" style="margin:0">Contact information</span><dl class="facts2">${rows}</dl></div>
+  </div></section>`;
+}
+
+/* ---------- router ---------- */
+function renderNav(r){
+  const on = x => r===x ? "on" : "";
+  $("#nav").innerHTML = `<a class="${on("home")}" href="#home">Home</a><a class="${on("projects")}" href="#projects">Projects</a><a class="${on("about")}" href="#about">About Me</a><a class="${on("help")}" href="#help">How I Can Help</a><a class="${on("contact")}" href="#contact">Contact</a><a class="navcta" href="#contact">Get in Touch</a>`;
+  $("#nav").querySelectorAll("a.on").forEach(a=>a.setAttribute("aria-current","page"));
+}
+function clearFilter(){
+  document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.filter===""));
+  document.querySelectorAll(".proj").forEach(x=>{ x.hidden=false; });
+}
+function setCs(id,open,scroll){
+  const panel=$("#cs-"+id); if(!panel) return;
+  if(open){
+    /* a service filter may be hiding this project; show everything again so the destination is visible */
+    const wrap=panel.closest(".proj"); if(wrap && wrap.hidden) clearFilter();
+    document.querySelectorAll(".cs").forEach(x=>{ if(x!==panel) x.hidden=true; });
+  }
+  panel.hidden=!open;
+  document.querySelectorAll("[data-cs]").forEach(b=>{ if(b.classList.contains("btn")){ const on=!$("#cs-"+b.dataset.cs).hidden; b.setAttribute("aria-expanded",on); if(b.closest(".work")) b.textContent=on?"Hide Case Study":"View Case Study"; }});
+  try{ history.replaceState(null,"", open?"#projects-"+id:"#projects"); }catch(e){}
+  if(open){ const h=panel.querySelector(".cs-h"); if(h){ h.setAttribute("tabindex","-1"); h.focus({preventScroll:true}); } }
+  if(scroll) (open?panel:$("#row-"+id)).scrollIntoView({block:"start"});
+}
+function route(target){
+  let r = (typeof target==="string" ? target : (location.hash||"#home").slice(1)) || "home";
+  if(r==="work") r="projects";
+  let html, open=null, toTools=false;
+  if(r==="skills"){ r="about"; toTools=true; }
+  if(r.startsWith("projects-")||r.startsWith("project-")||r.startsWith("work-")){ const id=r.replace(/^(projects|project|work)-/,""); if(byId(id)){ open=id; r="projects"; } else r="projects"; }
+  if(r==="about") html=about(); else if(r==="projects") html=projectsPage(); else if(r==="help") html=help(); else if(r==="contact") html=contact();
+  else { r="home"; html=home(); }
+  app.innerHTML = `<div class="page" id="${r}" data-page="${r}">${html}</div>`; renderNav(r);
+  $("#nav").classList.remove("open"); $("#burger").setAttribute("aria-expanded","false");
+  window.scrollTo(0,0);
+  const T={home:"Martha Karanja | Digital marketing: SEO, paid search, content and email",projects:"Projects | Martha Karanja",about:"About | Martha Karanja",help:"How I can help | Martha Karanja",contact:"Contact | Martha Karanja"};
+  document.title = open ? byId(open).title+" | Martha Karanja" : (T[r]||T.home);
+  if(open) setCs(open,true,true);
+  if(toTools){ const t=document.getElementById("tools"); if(t) t.scrollIntoView({block:"start"}); }
+}
+document.addEventListener("click",e=>{
+  const sk=e.target.closest("[data-skip]");
+  if(sk){ e.preventDefault(); $("#app").focus(); return; }
+  const fl=e.target.closest("[data-filter]");
+  if(fl){ const g=fl.dataset.filter;
+    document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c===fl));
+    document.querySelectorAll(".cs").forEach(x=>x.hidden=true);
+    document.querySelectorAll(".proj").forEach(x=>{ x.hidden = !!g && x.dataset.service!==g; });
+    document.querySelectorAll(".work [data-cs].btn").forEach(b=>{ b.textContent="View Case Study"; b.setAttribute("aria-expanded","false"); });
+    return; }
+  const c=e.target.closest("[data-cs]");
+  if(c){ e.preventDefault(); const id=c.dataset.cs, isOpen=!$("#cs-"+id).hidden; setCs(id,!(isOpen&&c.closest(".work")),true); return; }
+  const x=e.target.closest("[data-close]");
+  if(x){ e.preventDefault(); setCs(x.dataset.close,false,true); return; }
+  const l=e.target.closest('a[href^="#"]');
+  if(l && !e.defaultPrevented && l.getAttribute("href").length>1 && !e.ctrlKey && !e.metaKey && !e.shiftKey){
+    e.preventDefault();
+    const h=l.getAttribute("href");
+    try{ if(location.hash!==h) history.pushState(null,"",h); }catch(err){}
+    route(h.slice(1));
+  }
+});
+$("#burger").addEventListener("click",()=>{ const n=$("#nav"); const o=n.classList.toggle("open"); $("#burger").setAttribute("aria-expanded",o); });
+/* back/forward fires popstate and hashchange for the same move; route once */
+let lastHash=null, lastAt=0;
+function routeFromHistory(){ const h=location.hash, t=Date.now(); if(h===lastHash && t-lastAt<150) return; lastHash=h; lastAt=t; route(); }
+window.addEventListener("hashchange",routeFromHistory);
+window.addEventListener("popstate",routeFromHistory);
+document.addEventListener("keydown",e=>{ if(e.key==="Escape" && $("#nav").classList.contains("open")){ $("#nav").classList.remove("open"); $("#burger").setAttribute("aria-expanded","false"); $("#burger").focus(); } });
+route();
+})();
+</script>
+
+</body>
+</html>
